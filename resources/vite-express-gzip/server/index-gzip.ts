@@ -1,5 +1,3 @@
-// https://blog.csdn.net/u012557814/article/details/123264093
-
 import express from 'express';
 import compression from 'compression' // #先安装 compression
 import path from 'path';
