@@ -1,0 +1,12 @@
+{
+  "name": "js继承的几种实现方式",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "esno ./index.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
