@@ -1,0 +1,133 @@
+@font-face {
+  font-family: "iconfont"; /* Project id 3773322 */
+  /* Color fonts */
+  src: 
+       url('iconfont.woff2?t=1677991308445') format('woff2'),
+       url('iconfont.woff?t=1677991308445') format('woff'),
+       url('iconfont.ttf?t=1677991308445') format('truetype');
+}
+
+.iconfont {
+  font-family: "iconfont" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-mail:before {
+  content: "\e62e";
+}
+
+.icon-slash:before {
+  content: "\e62f";
+}
+
+.icon-help-circle-filled:before {
+  content: "\e630";
+}
+
+.icon-menu-application:before {
+  content: "\e631";
+}
+
+.icon-fazhan:before {
+  content: "\e6f1";
+}
+
+.icon-yaoqinghaoyou:before {
+  content: "\ffbb";
+}
+
+.icon-shangjiadianpu:before {
+  content: "\ffbc";
+}
+
+.icon-txt:before {
+  content: "\e67e";
+}
+
+.icon-sketch:before {
+  content: "\e67f";
+}
+
+.icon-excel:before {
+  content: "\e680";
+}
+
+.icon-ppt:before {
+  content: "\e681";
+}
+
+.icon-null:before {
+  content: "\e682";
+}
+
+.icon-word:before {
+  content: "\e683";
+}
+
+.icon-ai:before {
+  content: "\e684";
+}
+
+.icon-pdf:before {
+  content: "\e685";
+}
+
+.icon-tif:before {
+  content: "\e686";
+}
+
+.icon-rar:before {
+  content: "\e687";
+}
+
+.icon-indd:before {
+  content: "\e688";
+}
+
+.icon-raw:before {
+  content: "\e689";
+}
+
+.icon-psd:before {
+  content: "\e68a";
+}
+
+.icon-svg:before {
+  content: "\e68b";
+}
+
+.icon-folder:before {
+  content: "\e68c";
+}
+
+.icon-glb:before {
+  content: "\e68d";
+}
+
+.icon-cdr:before {
+  content: "\e68e";
+}
+
+.icon-gif:before {
+  content: "\e68f";
+}
+
+.icon-img:before {
+  content: "\e690";
+}
+
+.icon-mp3:before {
+  content: "\e691";
+}
+
+.icon-ttf:before {
+  content: "\e692";
+}
+
+.icon-gif1:before {
+  content: "\e693";
+}
+

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      #box {
+        width: 100px;
+        height: 100px;
+        background-color: red;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="box"></div>
+    <script>
+      function throttle(func, wait) {
+        let timeout = undefined;
+
+        return function () {
+          const args = arguments;
+
+          if (!timeout) {
+            timeout = setTimeout(() => {
+              timeout = undefined;
+              func.apply(this, args);
+            }, wait);
+          }
+        };
+      }
+
+      let runTimes = 0;
+      const box = document.querySelector("#box");
+      //   box.addEventListener("mousemove", () => {
+      //     console.log(123);
+      //     runTimes++;
+      //     box.innerHTML = runTimes;
+      //   });
+      box.addEventListener(
+        "mousemove",
+        throttle(() => {
+          console.log(123);
+          runTimes++;
+          box.innerHTML = runTimes;
+        }, 2000)
+      );
+    </script>
+  </body>
+</html>
