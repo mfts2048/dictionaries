@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>事件代理</title>
+    </head>
+    <body>
+        <div id="father">
+            <a href="#">链接1号</a>
+            <a href="#">链接2号</a>
+            <a href="#">链接3号</a>
+            <a href="#">链接4号</a>
+            <a href="#">链接5号</a>
+            <a href="#">链接6号</a>
+        </div>
+        <script>
+            const aNodes = document.querySelector("#father").getElementsByTagName('a')
+            const aLength = aNodes.length
+
+            for (let i = 0; i < aLength; i++) {
+                aNodes[i].addEventListener('click', function(e) {
+                    e.preventDefault()
+                    alert(`我是 ${aNodes[i].innerText}`)
+                })
+            }
+        </script>
+    </body>
+</html>

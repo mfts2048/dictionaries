@@ -1,5 +1,5 @@
 // 定义操作系统这类产品的抽象产品类
-class OS {
+export class OS {
     controlHardWare() {
         throw new Error("抽象产品方法不允许直接调用，你需要将我重写！")
     }

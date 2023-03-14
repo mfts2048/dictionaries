@@ -8,6 +8,7 @@ class FakeStarFactory extends MobilePhoneFactory {
         // 提供安卓系统实例
         return new AndroidOS()
     }
+
     createHardWare() {
         // 提供高通硬件实例
         return new QualcommHardWare()
